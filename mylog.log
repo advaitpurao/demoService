@@ -1,0 +1,202 @@
+[2020-03-01T21:52:19.019Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoServiceApplication on DESKTOP-GIBVE93 with PID 5588 (C:\Users\advai\Workspace\demoService\demoService\build\classes\java\main started by advai in C:\Users\advai\Workspace\demoService\demoService)
+[2020-03-01T21:52:19.019Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-03-01T21:52:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [92] [INFO ] Tomcat initialized with port(s): 1234 (http)
+[2020-03-01T21:52:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-1234"]
+[2020-03-01T21:52:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2020-03-01T21:52:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2020-03-01T21:52:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-03-01T21:52:21.021Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [284] [INFO ] Root WebApplicationContext: initialization completed in 1394 ms
+[2020-03-01T21:52:21.021Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-03-01T21:52:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-1234"]
+[2020-03-01T21:52:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [204] [INFO ] Tomcat started on port(s): 1234 (http) with context path ''
+[2020-03-01T21:52:21.021Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoServiceApplication in 2.31 seconds (JVM running for 2.835)
+[2020-03-01T21:52:53.053Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-03-01T21:52:53.053Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-03-01T21:52:53.053Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [547] [INFO ] Completed initialization in 12 ms
+[2020-03-02T12:34:46.046Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoServiceApplication on DESKTOP-GIBVE93 with PID 1320 (C:\Users\advai\Workspace\demoService\demoService\build\classes\java\main started by advai in C:\Users\advai\Workspace\demoService\demoService)
+[2020-03-02T12:34:46.046Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-03-02T12:34:50.050Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [92] [INFO ] Tomcat initialized with port(s): 1234 (http)
+[2020-03-02T12:34:50.050Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-1234"]
+[2020-03-02T12:34:50.050Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2020-03-02T12:34:50.050Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2020-03-02T12:34:51.051Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-03-02T12:34:51.051Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [284] [INFO ] Root WebApplicationContext: initialization completed in 4221 ms
+[2020-03-02T12:34:51.051Z] [org.springframework.web.filter.GenericFilterBean] [main] [242] [DEBUG] Filter 'configureRequestLoggingFilter' configured for use
+[2020-03-02T12:34:51.051Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-03-02T12:34:52.052Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-1234"]
+[2020-03-02T12:34:52.052Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [204] [INFO ] Tomcat started on port(s): 1234 (http) with context path ''
+[2020-03-02T12:34:52.052Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoServiceApplication in 6.748 seconds (JVM running for 8.091)
+[2020-03-02T12:35:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-03-02T12:35:02.002Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-03-02T12:35:02.002Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [547] [INFO ] Completed initialization in 11 ms
+[2020-03-02T12:35:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-1] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	at java.io.ByteArrayOutputStream.<init>(ByteArrayOutputStream.java:77)
+	at org.springframework.web.util.ContentCachingRequestWrapper.<init>(ContentCachingRequestWrapper.java:88)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:281)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2020-03-02T12:35:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-2] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	at java.io.ByteArrayOutputStream.<init>(ByteArrayOutputStream.java:77)
+	at org.springframework.web.util.ContentCachingRequestWrapper.<init>(ContentCachingRequestWrapper.java:88)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:281)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[2020-03-02T12:35:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-3] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-4] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-5] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-6] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:07.007Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-7] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:07.007Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-8] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:07.007Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-9] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:37.037Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-10] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:37.037Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-1] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:35:37.037Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-2] [175] [ERROR] Failed to complete processing of a request
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[2020-03-02T12:36:25.025Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoServiceApplication on DESKTOP-GIBVE93 with PID 21032 (C:\Users\advai\Workspace\demoService\demoService\build\classes\java\main started by advai in C:\Users\advai\Workspace\demoService\demoService)
+[2020-03-02T12:36:25.025Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-03-02T12:36:27.027Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [92] [INFO ] Tomcat initialized with port(s): 1234 (http)
+[2020-03-02T12:36:27.027Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-1234"]
+[2020-03-02T12:36:27.027Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2020-03-02T12:36:27.027Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2020-03-02T12:36:27.027Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-03-02T12:36:27.027Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [284] [INFO ] Root WebApplicationContext: initialization completed in 1879 ms
+[2020-03-02T12:36:28.028Z] [org.springframework.web.filter.GenericFilterBean] [main] [242] [DEBUG] Filter 'configureRequestLoggingFilter' configured for use
+[2020-03-02T12:36:28.028Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-03-02T12:36:28.028Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-1234"]
+[2020-03-02T12:36:28.028Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [204] [INFO ] Tomcat started on port(s): 1234 (http) with context path ''
+[2020-03-02T12:36:28.028Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoServiceApplication in 2.993 seconds (JVM running for 3.589)
+[2020-03-02T12:36:38.038Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-03-02T12:36:38.038Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-03-02T12:36:38.038Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [547] [INFO ] Completed initialization in 5 ms
+[2020-03-02T12:36:38.038Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-1] [47] [DEBUG] Before request [GET /demoService/health, headers=[host:"localhost:1234", connection:"keep-alive", cache-control:"max-age=0", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"document", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"cross-site", sec-fetch-mode:"navigate", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:36:38.038Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-1] [55] [DEBUG] REQUEST DATA : GET /demoService/health, headers=[host:"localhost:1234", connection:"keep-alive", cache-control:"max-age=0", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"document", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"cross-site", sec-fetch-mode:"navigate", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:36:38.038Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-2] [47] [DEBUG] Before request [GET /favicon.ico, headers=[host:"localhost:1234", connection:"keep-alive", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"image", accept:"image/webp,image/apng,image/*,*/*;q=0.8", sec-fetch-site:"same-origin", sec-fetch-mode:"no-cors", referer:"http://localhost:1234/demoService/health", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:36:38.038Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-2] [55] [DEBUG] REQUEST DATA : GET /favicon.ico, headers=[host:"localhost:1234", connection:"keep-alive", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"image", accept:"image/webp,image/apng,image/*,*/*;q=0.8", sec-fetch-site:"same-origin", sec-fetch-mode:"no-cors", referer:"http://localhost:1234/demoService/health", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:36:41.041Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-3] [47] [DEBUG] Before request [GET /demoService/health, headers=[host:"localhost:1234", connection:"keep-alive", cache-control:"max-age=0", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"document", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:36:41.041Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-3] [55] [DEBUG] REQUEST DATA : GET /demoService/health, headers=[host:"localhost:1234", connection:"keep-alive", cache-control:"max-age=0", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"document", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:43:03.003Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoServiceApplication on DESKTOP-GIBVE93 with PID 7696 (C:\Users\advai\Workspace\demoService\demoService\build\classes\java\main started by advai in C:\Users\advai\Workspace\demoService\demoService)
+[2020-03-02T12:43:03.003Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-03-02T12:43:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [92] [INFO ] Tomcat initialized with port(s): 1234 (http)
+[2020-03-02T12:43:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-1234"]
+[2020-03-02T12:43:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2020-03-02T12:43:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2020-03-02T12:43:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-03-02T12:43:05.005Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [278] [DEBUG] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2020-03-02T12:43:05.005Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [284] [INFO ] Root WebApplicationContext: initialization completed in 1525 ms
+[2020-03-02T12:43:05.005Z] [org.springframework.web.filter.GenericFilterBean] [main] [242] [DEBUG] Filter 'configureRequestLoggingFilter' configured for use
+[2020-03-02T12:43:05.005Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-03-02T12:43:05.005Z] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [main] [615] [DEBUG] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2020-03-02T12:43:05.005Z] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping] [main] [351] [DEBUG] 3 mappings in 'requestMappingHandlerMapping'
+[2020-03-02T12:43:05.005Z] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [main] [173] [DEBUG] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2020-03-02T12:43:05.005Z] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [main] [297] [DEBUG] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2020-03-02T12:43:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-1234"]
+[2020-03-02T12:43:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [204] [INFO ] Tomcat started on port(s): 1234 (http) with context path ''
+[2020-03-02T12:43:05.005Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoServiceApplication in 2.452 seconds (JVM running for 2.999)
+[2020-03-02T12:43:16.016Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-03-02T12:43:16.016Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-03-02T12:43:16.016Z] [org.springframework.web.servlet.DispatcherServlet] [http-nio-1234-exec-1] [526] [DEBUG] Detected StandardServletMultipartResolver
+[2020-03-02T12:43:16.016Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [542] [DEBUG] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2020-03-02T12:43:16.016Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [547] [INFO ] Completed initialization in 5 ms
+[2020-03-02T12:43:16.016Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-1] [47] [DEBUG] Before request [GET /demoService/health, headers=[host:"localhost:1234", connection:"keep-alive", cache-control:"max-age=0", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"document", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:43:16.016Z] [org.springframework.core.log.LogFormatUtils] [http-nio-1234-exec-1] [91] [DEBUG] GET "/demoService/health", parameters={}
+[2020-03-02T12:43:16.016Z] [org.springframework.web.servlet.handler.AbstractHandlerMapping] [http-nio-1234-exec-1] [414] [DEBUG] Mapped to jugaad.demoService.DemoServiceResourceImpl#health()
+[2020-03-02T12:43:16.016Z] [org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor] [http-nio-1234-exec-1] [265] [DEBUG] Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+[2020-03-02T12:43:16.016Z] [org.springframework.core.log.LogFormatUtils] [http-nio-1234-exec-1] [91] [DEBUG] Writing ["Healthy"]
+[2020-03-02T12:43:16.016Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [1131] [DEBUG] Completed 200 OK
+[2020-03-02T12:43:16.016Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-1] [55] [DEBUG] REQUEST DATA : GET /demoService/health, headers=[host:"localhost:1234", connection:"keep-alive", cache-control:"max-age=0", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"document", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:46:42.042Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoServiceApplication on DESKTOP-GIBVE93 with PID 17788 (C:\Users\advai\Workspace\demoService\demoService\build\classes\java\main started by advai in C:\Users\advai\Workspace\demoService\demoService)
+[2020-03-02T12:46:42.042Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-03-02T12:46:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [92] [INFO ] Tomcat initialized with port(s): 1234 (http)
+[2020-03-02T12:46:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-1234"]
+[2020-03-02T12:46:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2020-03-02T12:46:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2020-03-02T12:46:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-03-02T12:46:43.043Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [278] [DEBUG] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2020-03-02T12:46:43.043Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [284] [INFO ] Root WebApplicationContext: initialization completed in 1136 ms
+[2020-03-02T12:46:43.043Z] [org.springframework.web.filter.GenericFilterBean] [main] [242] [DEBUG] Filter 'configureRequestLoggingFilter' configured for use
+[2020-03-02T12:46:43.043Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-03-02T12:46:43.043Z] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [main] [615] [DEBUG] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2020-03-02T12:46:43.043Z] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping] [main] [351] [DEBUG] 3 mappings in 'requestMappingHandlerMapping'
+[2020-03-02T12:46:43.043Z] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [main] [173] [DEBUG] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2020-03-02T12:46:43.043Z] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [main] [297] [DEBUG] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2020-03-02T12:46:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-1234"]
+[2020-03-02T12:46:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [204] [INFO ] Tomcat started on port(s): 1234 (http) with context path ''
+[2020-03-02T12:46:43.043Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoServiceApplication in 1.883 seconds (JVM running for 2.311)
+[2020-03-02T12:47:00.000Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-1234-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-03-02T12:47:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-03-02T12:47:00.000Z] [org.springframework.web.servlet.DispatcherServlet] [http-nio-1234-exec-1] [526] [DEBUG] Detected StandardServletMultipartResolver
+[2020-03-02T12:47:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [542] [DEBUG] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2020-03-02T12:47:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [547] [INFO ] Completed initialization in 6 ms
+[2020-03-02T12:47:00.000Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-1] [47] [DEBUG] Before request [GET /demoService/health, headers=[host:"localhost:1234", connection:"keep-alive", cache-control:"max-age=0", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"document", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
+[2020-03-02T12:47:00.000Z] [org.springframework.core.log.LogFormatUtils] [http-nio-1234-exec-1] [91] [DEBUG] GET "/demoService/health", parameters={}
+[2020-03-02T12:47:00.000Z] [org.springframework.web.servlet.handler.AbstractHandlerMapping] [http-nio-1234-exec-1] [414] [DEBUG] Mapped to jugaad.demoService.DemoServiceResourceImpl#health()
+[2020-03-02T12:47:00.000Z] [jugaad.demoService.DemoServiceResourceImpl] [http-nio-1234-exec-1] [15] [INFO ] Server Is Healthy
+[2020-03-02T12:47:00.000Z] [org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor] [http-nio-1234-exec-1] [265] [DEBUG] Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+[2020-03-02T12:47:00.000Z] [org.springframework.core.log.LogFormatUtils] [http-nio-1234-exec-1] [91] [DEBUG] Writing ["Healthy"]
+[2020-03-02T12:47:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-1234-exec-1] [1131] [DEBUG] Completed 200 OK
+[2020-03-02T12:47:00.000Z] [org.springframework.web.filter.CommonsRequestLoggingFilter] [http-nio-1234-exec-1] [55] [DEBUG] REQUEST DATA : GET /demoService/health, headers=[host:"localhost:1234", connection:"keep-alive", cache-control:"max-age=0", upgrade-insecure-requests:"1", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36", sec-fetch-dest:"document", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", sec-fetch-site:"none", sec-fetch-mode:"navigate", sec-fetch-user:"?1", accept-encoding:"gzip, deflate, br", accept-language:"en-US,en;q=0.9"]]
